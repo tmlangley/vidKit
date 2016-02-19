@@ -4,7 +4,7 @@ A plugin to give you more control over video display. This currently only works 
 
 ## Usage
 
-```
+```javascript
 $("vidWrapper").vidKit({
   videoUrl: 'https://www.youtube.com/watch?v=123456789',
   aspectRatio: 1.33333, // 16:9
@@ -18,7 +18,7 @@ $("vidWrapper").vidKit({
 
 ### Events
 
-```
+```javascript
 $("vidWrapper").on('vidKit.ready', function() {
   // Do something...
 });
@@ -30,7 +30,7 @@ $("vidWrapper").on('vidKit.ready', function() {
 
 ### Methods
 
-```
+```javascript
 $("vidWrapper").on('vidKit.ready', function() {
   $(this).vidKit('seekTo', 22); // Go to 22 seconds on the timeline.
 });
