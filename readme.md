@@ -24,8 +24,8 @@ $("vidWrapper").on('vidKit.ready', function() {
 });
 ```
 
-`vidkit.ready` - Video is ready.
-`vidkit.playing` - Video has started playing.
+- `vidkit.ready` - Video is ready.
+- `vidkit.playing` - Video has started playing.
 
 
 ### Methods
@@ -36,7 +36,7 @@ $("vidWrapper").on('vidKit.ready', function() {
 });
 ```
 
-`play` - Start the video playback.
-`pause` - Pause the video playback.
-`stop` - Stop the video.
-`seekTo` - Go to a specific place in the video. Useful for restarting the video.
+- `play` - Start the video playback.
+- `pause` - Pause the video playback.
+- `stop` - Stop the video.
+- `seekTo` - Go to a specific place in the video. Useful for restarting the video.
