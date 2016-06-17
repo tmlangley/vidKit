@@ -1,6 +1,9 @@
 # VidKit
 
-A plugin to give you more control over video display. This currently only works with Youtube videos.
+VidKit has two primary goals. 
+
+- Allow developers to easily place videos as a background of another element.
+- Provide a standard way to customize videos from various video services.
 
 ## Usage
 
