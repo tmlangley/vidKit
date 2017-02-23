@@ -8,7 +8,7 @@ VidKit has two primary goals.
 ## Usage
 
 ```javascript
-$("vidWrapper").vidKit({
+$(".vidWrapper").vidKit({
   videoUrl: 'https://www.youtube.com/watch?v=123456789',
   aspectRatio: 1.33333, // 16:9
   autoplay: 1,
@@ -22,7 +22,7 @@ $("vidWrapper").vidKit({
 ### Events
 
 ```javascript
-$("vidWrapper").on('vidKit.ready', function() {
+$(".vidWrapper").on('vidKit.ready', function() {
   // Do something...
 });
 ```
@@ -34,7 +34,7 @@ $("vidWrapper").on('vidKit.ready', function() {
 ### Methods
 
 ```javascript
-$("vidWrapper").on('vidKit.ready', function() {
+$(".vidWrapper").on('vidKit.ready', function() {
   $(this).vidKit('seekTo', 22); // Go to 22 seconds on the timeline.
 });
 ```
